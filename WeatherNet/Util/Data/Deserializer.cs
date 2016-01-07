@@ -144,6 +144,7 @@ namespace WeatherNet.Util.Data
                 weatherDaily.WindSpeed = Convert.ToDouble(item["speed"]);
                 weatherDaily.Clouds = Convert.ToDouble(item["clouds"]);
                 weatherDaily.Pressure = Convert.ToDouble(item["pressure"]);
+                weatherDaily.Snow = Convert.ToDouble(item["snow"]);
                 weatherDaily.Rain = Convert.ToDouble(item["rain"]);
                 weatherDaily.DateUnixFormat = Convert.ToInt32(item["dt"]);
                 weatherDaily.Date = TimeHelper.ToDateTime(Convert.ToInt32(item["dt"]));

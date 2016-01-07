@@ -46,5 +46,6 @@ namespace WeatherNet.Model
         ///     Cloudiness in %
         /// </summary>
         public Double Clouds { get; set; }
+        public double Snow { get; internal set; }
     }
 }
